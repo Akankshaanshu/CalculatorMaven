@@ -1,0 +1,4 @@
+FROM openjdk:8
+EXPOSE 8080
+ADD target/DockerJenkins-sample.jar DockerJenkins-sample.jar
+ENTRYPOINT ["java","jar","/DockerJenkins-sample.jar"]
