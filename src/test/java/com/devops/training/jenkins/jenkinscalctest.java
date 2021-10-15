@@ -4,20 +4,18 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-//import com.devops.traing.jenkins.JenkinsCalculator;
+import com.devops.traing.jenkins.JenkinsCalculator;
 
-public class jenkinscalctest {
+public class jenkinsCalTest {
 
 	@Test
-	
-		public void addTest() {
-			JenkinsCalculator mycalc=new JenkinsCalculator();
-			assertEquals(10,mycalc.addnumbers(5, 5));
-		}
-		public void subTest() {
-			JenkinsCalculator mycalc=new JenkinsCalculator();
-			assertEquals(5,mycalc.addnumbers(10, 5));
-		}
+	public void addtest() {
+		jenkinsCalculator mycalc=new jenkinsCalculator();
+		assertEquals(10,mycalc.addNumbers(5, 5));
 	}
-
-
+	@Test
+	public void subtracttest() {
+		jenkinsCalculator mycalc=new jenkinsCalculator();
+		assertEquals(5,mycalc.subtractNumbers(10, 5));
+	}
+}
