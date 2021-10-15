@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.devops.traing.jenkins.JenkinsCalculator;
+//import com.devops.traing.jenkins.JenkinsCalculator;
 
 public class jenkinscalctest {
 
