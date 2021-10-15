@@ -11,11 +11,11 @@ public class jenkinsCalTest {
 	@Test
 	public void addtest() {
 		JenkinsCalculator mycalc=new JenkinsCalculator();
-		assertEquals(10,mycalc.addNumbers(5, 5));
+		assertEquals(10,mycalc.addnumbers(5, 5));
 	}
 	@Test
 	public void subtracttest() {
 		JenkinsCalculator mycalc=new JenkinsCalculator();
-		assertEquals(5,mycalc.subtractNumbers(10, 5));
+		assertEquals(5,mycalc.subtractnumbers(10, 5));
 	}
 }
