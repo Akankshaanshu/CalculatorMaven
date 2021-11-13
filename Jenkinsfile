@@ -26,10 +26,10 @@ pipeline {
                 bat "mvn package"
             }
         }
-        stage('SonarQube Stage') {
+        /*stage('SonarQube Stage') {
             steps {
                 bat "mvn sonar:sonar"
             }
-        }
+        }*/
     }
 }
